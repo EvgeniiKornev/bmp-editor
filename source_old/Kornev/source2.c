@@ -21,10 +21,10 @@ int main()
     int w;
     int h;
     int end[7];
-    FILE * fin = fopen("one.bmp", "r");
+    FILE * fin = fopen("one.bmp", "r");  // otkrivaet fail dlia chetinia 
     perror("Open file");
 
-    FILE * fout = fopen("two.bmp", "w+b");
+    FILE * fout = fopen("two.bmp", "w+b"); // sozdaet fail and otkrovaet ego dlia zapisi
     perror("Open file");
 
     fread(&type, 2, 1, fin);
