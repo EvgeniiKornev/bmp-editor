@@ -11,4 +11,9 @@ file *inputFile = fopen(fileName,openAction);
 return inputFile;
 
 }
- 
+BYTE*** mallocImage(struct bmp)
+{
+/* primaet visoty, shiriny, razmer stryctyri
+videliaet pamiat pod dinamicheskii 3h mernii massiv 
+vozvrashiaet trexmernii massiv */
+}
