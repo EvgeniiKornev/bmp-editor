@@ -17,3 +17,14 @@ BYTE*** mallocImage(struct bmp)
 videliaet pamiat pod dinamicheskii 3h mernii massiv 
 vozvrashiaet trexmernii massiv */
 }
+
+//void litlFoto(byte*** ,max_size){
+ 
+ //prinimaet  massiv na vhod
+ //zapyskaet 2 cikla (chitaet vse pixseli)
+ // zapisivaet v drygoi massiv tolko NeChtnie stroki i stolbci
+ //vozvrashaet massiv
+}
+
+
+// function zapisi v fail
