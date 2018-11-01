@@ -1,1 +1,14 @@
-gkghk
+
+
+file *openfile(char *fileName, char *openAction)
+{
+    /*fynkcia prinimaet stroky, soderzhayy imia faila i stroky naimenovaniz
+    Sozdaet ykazatel na fail;
+    otkrivaet fail;
+    vozrashiet ykazatel na fail; */
+
+file *inputFile = fopen(fileName,openAction);
+return inputFile;
+
+}
+ 
